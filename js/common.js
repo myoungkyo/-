@@ -9,6 +9,15 @@ $(function(){
   //   return false;
   // });
 
+  // var browser = $.browser.msie;
+  // if(browser!=undefined&&browser){
+  //   $("li").on("click","a",function(){
+  //     alert("Chrome 사용을 권장합니다.");
+  //     return false;
+  //   });
+  // };
+
+
   $("nav ul li a,.back_to_top a,a.button,.footer_top a").click(function(e){
     // console.log($(this.hash).offset().top)
     var thisElem = $(this.hash);

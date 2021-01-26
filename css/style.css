@@ -342,6 +342,7 @@ section > article > h2,section > article > h3{
   position: absolute;
   left: -20%;
   z-index: 10;
+  -ms-transform: translateY(-50%);
 }
 
 #section3 #model_img img{
@@ -518,6 +519,7 @@ section > article > h2,section > article > h3{
 
 #section4 .image .box{
   flex: 25%;
+  -ms-flex: 23%;
   box-sizing: border-box;
   padding: 10px;
 }
@@ -883,8 +885,8 @@ section > article > h2,section > article > h3{
 
 #story #section4 .container{
   display: inline-block;
-  margin: 0 auto;
   overflow: hidden;
+  width: 1440px;
 }
 
 #story #section4 .container .content_1{
@@ -1132,6 +1134,7 @@ section > article > h2,section > article > h3{
 
 #product_main .box_wrap{
   flex: 25%;
+  -ms-flex: 23%;
   flex-grow: 0;
   box-sizing: border-box;
   padding: 2% 1%;
